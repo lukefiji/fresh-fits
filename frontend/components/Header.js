@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import Nav from './Nav';
 import styled from 'styled-components';
+import Nav from './Nav';
 
 const Logo = styled.h1`
   font-size: 4rem;
@@ -40,7 +40,7 @@ const StyledHeader = styled.header`
   .sub-bar {
     display: grid;
     grid-template-columns: 1fr auto;
-    border-bottom: 1px solid ${props => props.theme.lightGrey};
+    border-bottom: 1px solid ${props => props.theme.lightgrey};
   }
 `;
 
